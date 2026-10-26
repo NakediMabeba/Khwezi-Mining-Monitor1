@@ -89,6 +89,9 @@ STATUS_GROUP = {
     "WARNING": "amber", "Medium": "amber", "Due": "amber", "Under Maintenance": "amber", "Open": "amber", "Under Review": "amber",
     "NORMAL": "green", "OK": "green", "Low": "green", "Available": "green", "Closed": "green", "On target": "green",
 }
+# Company logo: mine headframe with the morning star ("Khwezi" means morning star)
+LOGO_SVG = ('<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#E6EAF0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 58H58"/><path d="M14 58L20 20M34 58L28 20M20 20H28"/><path d="M17.5 36H30.5M15.5 48H32.5"/><path d="M18 36L32 48M30 36L16 48" stroke-width="2.4"/><path d="M28 22L50 58"/><circle cx="24" cy="13" r="6"/><polygon points="49.0,5.0 51.2,10.9 57.6,11.2 52.6,15.2 54.3,21.3 49.0,17.8 43.7,21.3 45.4,15.2 40.4,11.2 46.8,10.9" fill="#D9731A" stroke="none"/></svg>')
+
 STATUS_COLUMNS = ["Priority", "Condition", "Risk Level", "Maintenance State", "Maintenance Status", "Severity", "Status", "Intervention"]
 
 CSS = f"""
@@ -113,7 +116,7 @@ section[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="tr
 section[data-testid="stSidebar"] [data-testid="stRadioOption"][data-selected="true"] p {{ font-weight: 600; color: #FFFFFF; }}
 section[data-testid="stSidebar"] .stButton button {{ background: transparent; border: 1px solid rgba(255,255,255,0.25); }}
 section[data-testid="stSidebar"] .stButton button:hover {{ border-color: {ACCENT}; }}
-.kh-brand {{ padding: 4px 0 18px; border-bottom: 1px solid rgba(255,255,255,0.12); margin-bottom: 16px; }}
+.kh-brand {{ display: flex; align-items: center; gap: 12px; padding: 4px 0 18px; border-bottom: 1px solid rgba(255,255,255,0.12); margin-bottom: 16px; }}
 .kh-brand-name {{ font-size: 1.15rem; font-weight: 700; letter-spacing: 0.04em; color: #FFFFFF !important; }}
 .kh-brand-sub {{ font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: #9AA7B8 !important; }}
 .kh-user {{ display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(255,255,255,0.05);
@@ -145,6 +148,8 @@ section[data-testid="stSidebar"] .stButton button:hover {{ border-color: {ACCENT
 [data-testid="stForm"] {{ background: #FFFFFF; border: 1px solid {BORDER}; border-radius: 6px; }}
 [data-testid="stVerticalBlockBorderWrapper"] {{ background: #FFFFFF; }}
 
+.kh-brand svg {{ width: 38px; height: 38px; flex-shrink: 0; }}
+.kh-login-logo svg {{ width: 72px; height: 72px; margin-bottom: 14px; }}
 /* Login */
 .kh-login-panel {{ background: {NAVY}; border-radius: 8px; padding: 40px 36px; min-height: 430px; border-top: 4px solid {ACCENT}; }}
 .kh-login-panel * {{ color: #E6EAF0; }}
@@ -260,6 +265,7 @@ def login_page():
     left, right = st.columns([1.15, 1], gap="large")
     with left:
         st.markdown(f"""<div class="kh-login-panel">
+            <div class="kh-login-logo">{LOGO_SVG}</div>
             <div class="kh-login-name">KHWEZI MINING</div>
             <div class="kh-login-tag">Health, Safety &amp; Equipment Monitoring</div>
             <p>One place for supervisors, engineers and managers to see the safety and equipment status of the operation.</p>
@@ -1180,8 +1186,8 @@ def users_page():
 def main_app():
     user = USERS[st.session_state.username]
     initials = "".join(part[0] for part in user["name"].split()[:2]).upper()
-    st.sidebar.markdown('<div class="kh-brand"><div class="kh-brand-name">KHWEZI MINING</div>'
-                        '<div class="kh-brand-sub">Operations Monitor</div></div>'
+    st.sidebar.markdown(f'<div class="kh-brand">{LOGO_SVG}<div><div class="kh-brand-name">KHWEZI MINING</div>'
+                        '<div class="kh-brand-sub">Operations Monitor</div></div></div>'
                         f'<div class="kh-user"><div class="kh-avatar">{initials}</div><div>'
                         f'<div class="kh-user-name">{user["name"]}</div><div class="kh-user-role">{user["role"]}</div></div></div>'
                         '<div class="kh-nav-label">Navigation</div>', unsafe_allow_html=True)

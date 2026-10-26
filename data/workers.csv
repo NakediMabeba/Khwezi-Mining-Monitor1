@@ -1,0 +1,31 @@
+Worker ID,Department,Job Role,Shift,PPE Compliance (%),Training Status,Fatigue Level,Safety Observations,Near Misses,Previous Incidents
+W001,Production,Blaster,Day,84,Complete,3,7,3,0
+W002,Production,LHD Operator,Night,84,Expired,1,3,0,0
+W003,Production,Blaster,Day,88,Complete,1,7,3,0
+W004,Production,Driller,Night,88,Pending,1,3,0,0
+W005,Production,Miner,Night,74,Complete,5,8,0,0
+W006,Production,LHD Operator,Night,95,Complete,2,8,1,0
+W007,Production,Haul Truck Operator,Day,93,Complete,4,6,0,1
+W008,Production,LHD Operator,Day,78,Complete,2,1,0,0
+W009,Production,Blaster,Day,86,Complete,1,5,0,0
+W010,Production,Blaster,Day,90,Expired,3,7,1,1
+W011,Production,Miner,Night,95,Complete,2,7,1,1
+W012,Plant,Crusher Attendant,Night,90,Complete,3,1,0,1
+W013,Plant,Crusher Attendant,Night,86,Complete,2,0,0,1
+W014,Plant,Plant Operator,Day,84,Complete,2,8,0,1
+W015,Plant,Plant Operator,Night,88,Complete,1,0,3,0
+W016,Plant,Plant Operator,Night,86,Complete,2,2,1,0
+W017,Plant,Control Room Operator,Night,78,Complete,2,3,1,0
+W018,Engineering,Technician,Day,90,Complete,1,6,0,1
+W019,Engineering,Electrician,Night,91,Complete,1,6,0,1
+W020,Engineering,Instrument Technician,Night,78,Pending,1,8,3,1
+W021,Engineering,Electrician,Night,91,Complete,5,3,0,0
+W022,Maintenance,Diesel Mechanic,Night,91,Complete,2,7,1,0
+W023,Maintenance,Boilermaker,Night,82,Complete,4,7,0,0
+W024,Maintenance,Fitter,Day,90,Complete,3,4,0,0
+W025,Maintenance,Fitter,Day,86,Complete,3,7,0,0
+W026,Maintenance,Diesel Mechanic,Night,78,Complete,4,2,1,1
+W027,Maintenance,Diesel Mechanic,Day,74,Expired,2,8,1,0
+W028,Geology,Sampler,Day,74,Expired,5,4,0,0
+W029,Geology,Geotechnician,Day,84,Complete,2,6,0,1
+W030,Geology,Geotechnician,Night,78,Complete,5,8,0,3

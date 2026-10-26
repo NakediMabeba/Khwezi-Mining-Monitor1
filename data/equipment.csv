@@ -1,0 +1,19 @@
+Equipment ID,Equipment Type,Manufacturer,Department,Operating Hours,Fuel Consumption (L/h),Brake Status,Tyre Status,Engine Status,Maintenance Status,Service Interval (h),Hours Since Service,Operating Time (h),Downtime (h)
+TRK-001,Haul Truck,Komatsu,Production,8200,38,Good,Good,Good,Available,500,310,690,18
+TRK-002,Haul Truck,Komatsu,Production,9100,41,Good,Good,Good,Available,500,470,665,31
+TRK-003,Haul Truck,CAT,Production,11800,44,Inspect,Worn,Good,Available,500,560,610,62
+TRK-012,Haul Truck,CAT,Production,10400,45,Good,Good,Warning,Available,500,520,600,70
+LD-001,Loader,CAT,Production,6200,35,Good,Worn,Good,Available,400,180,692,22
+LD-002,Loader,Sandvik,Production,7400,33,Good,Good,Good,Under Maintenance,400,0,500,160
+EX-001,Excavator,Hitachi,Production,13200,52,N/A,N/A,Good,Available,500,240,700,12
+EX-002,Excavator,Komatsu,Production,9800,49,N/A,N/A,Good,Available,500,455,684,28
+DR-001,Drilling Machine,Epiroc,Production,7100,47,Inspect,Good,Warning,Available,300,330,592,55
+DR-002,Drilling Machine,Sandvik,Production,5600,40,Good,Good,Good,Available,300,120,700,14
+BD-001,Bulldozer,CAT,Production,8900,39,Good,N/A,Good,Available,500,380,688,24
+SW-001,Scraper Winch,Joy Global,Production,15200,0,Good,N/A,Good,Available,250,90,705,9
+CR-001,Crusher,Metso,Plant,12600,58,N/A,N/A,Good,Under Maintenance,600,0,480,140
+CR-002,Crusher,Sandvik,Plant,9900,55,N/A,N/A,Good,Available,600,350,676,40
+CV-001,Conveyor,Metso,Plant,15400,44,N/A,N/A,Good,Available,1000,610,708,12
+CV-002,Conveyor,FLSmidth,Plant,14100,42,N/A,N/A,Good,Available,1000,1080,640,48
+PM-001,Pump,Weir,Engineering,9700,12,N/A,N/A,Good,Available,800,400,712,6
+PM-002,Pump,Weir,Engineering,11200,13,N/A,N/A,Warning,Available,800,760,650,58

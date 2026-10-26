@@ -1,0 +1,46 @@
+Incident ID,Date,Time,Shift,Location,Department,Incident Type,Severity,Injury,Lost Time Injury,Cause,Corrective Action,Status
+I001,2026-05-05,12:40,Day,North Pit,Geology,Vehicle Incident,Medium,Yes,No,Poor visibility,Repair lighting,Closed
+I002,2026-05-24,09:40,Day,Workshop,Maintenance,Near Miss,Medium,No,No,Pedestrian interaction,Review traffic plan,Closed
+I003,2026-05-24,16:50,Day,Conveyor Line,Plant,Vehicle Incident,High,No,No,Reversing without spotter,Review reversing controls,Closed
+I004,2026-05-25,00:00,Night,Underground Section A,Production,Equipment Contact,Medium,Yes,No,Lack of isolation,Retrain on lockout procedure,Closed
+I005,2026-05-30,04:00,Night,Underground Section A,Production,Equipment Contact,Medium,No,No,Lack of isolation,Retrain on lockout procedure,Under Review
+I006,2026-05-31,06:15,Day,Workshop,Maintenance,Fall of Ground,Critical,No,No,Loose ground,Barricade and inspect,Closed
+I007,2026-05-31,15:10,Day,Wash Bay,Maintenance,Slip/Trip,Low,No,No,Poor housekeeping,Housekeeping inspection,Closed
+I008,2026-06-06,15:20,Day,Wash Bay,Maintenance,Dust Exposure,Medium,Yes,No,Dust suppression failure,Repair water sprays,Closed
+I009,2026-06-08,14:20,Day,Conveyor Line,Plant,Slip/Trip,Low,No,No,Wet surface,Improve housekeeping,Closed
+I010,2026-06-09,12:40,Day,Workshop,Maintenance,Fall of Ground,High,Yes,Yes,Inadequate barring down,Retrain on barring down,Open
+I011,2026-06-13,15:50,Day,Crusher Plant,Plant,Electrical,High,Yes,Yes,Lack of isolation,Retrain on lockout procedure,Closed
+I012,2026-06-16,17:10,Day,Underground Section A,Production,Fall of Ground,High,No,No,Loose ground,Barricade and inspect,Closed
+I013,2026-06-18,09:00,Day,South Pit,Production,Vehicle Incident,Medium,No,No,Speeding,Install speed monitoring,Closed
+I014,2026-06-23,22:10,Night,South Pit,Production,Equipment Contact,Critical,No,No,Lack of isolation,Retrain on lockout procedure,Closed
+I015,2026-06-28,18:30,Night,Haul Road,Production,Near Miss,Low,No,No,Reversing without spotter,Review reversing controls,Closed
+I016,2026-07-02,16:30,Day,South Pit,Production,Slip/Trip,Medium,No,No,Poor housekeeping,Housekeeping inspection,Closed
+I017,2026-07-03,03:20,Night,North Pit,Production,Hand Injury,Low,Yes,No,No gloves worn,PPE enforcement,Closed
+I018,2026-07-05,05:30,Night,Underground Section A,Production,Slip/Trip,Medium,Yes,No,Poor housekeeping,Housekeeping inspection,Closed
+I019,2026-07-09,22:45,Night,North Pit,Production,Slip/Trip,Medium,Yes,No,Uneven ground,Grade walkways,Closed
+I020,2026-07-11,02:50,Night,Underground Section A,Production,Vehicle Incident,Critical,Yes,Yes,Poor visibility,Repair lighting,Closed
+I021,2026-07-13,11:45,Day,North Pit,Geology,Hand Injury,Low,No,No,No gloves worn,PPE enforcement,Closed
+I022,2026-07-16,14:00,Day,Conveyor Line,Plant,Equipment Contact,Low,No,No,Poor visibility,Repair lighting,Closed
+I023,2026-07-20,01:10,Night,Haul Road,Production,Equipment Contact,Medium,No,No,Lack of isolation,Retrain on lockout procedure,Closed
+I024,2026-07-28,06:45,Day,South Pit,Production,Slip/Trip,Critical,No,No,Wet surface,Improve housekeeping,Closed
+I025,2026-08-04,12:00,Day,Underground Section A,Production,Slip/Trip,Low,Yes,No,Poor housekeeping,Housekeeping inspection,Closed
+I026,2026-08-04,21:45,Night,South Pit,Production,Fall of Ground,Critical,No,No,Loose ground,Barricade and inspect,Closed
+I027,2026-08-05,22:40,Night,South Pit,Production,Hand Injury,Medium,No,No,No gloves worn,PPE enforcement,Closed
+I028,2026-08-06,04:20,Night,Pump Station,Engineering,Fall of Ground,High,Yes,Yes,Inadequate barring down,Retrain on barring down,Closed
+I029,2026-08-08,09:30,Day,South Pit,Production,Slip/Trip,High,No,No,Poor housekeeping,Housekeeping inspection,Closed
+I030,2026-08-09,06:45,Day,North Pit,Production,Slip/Trip,Low,Yes,No,Uneven ground,Grade walkways,Closed
+I031,2026-08-14,00:40,Night,Underground Section A,Production,Dust Exposure,Medium,No,No,Dust suppression failure,Repair water sprays,Closed
+I032,2026-08-15,17:40,Day,Core Yard,Geology,Slip/Trip,Medium,No,No,Wet surface,Improve housekeeping,Closed
+I033,2026-08-19,06:45,Day,South Pit,Production,Vehicle Incident,High,No,No,Speeding,Install speed monitoring,Closed
+I034,2026-08-30,20:30,Night,Wash Bay,Maintenance,Equipment Contact,Critical,No,No,Unguarded equipment,Install guards,Open
+I035,2026-09-05,23:40,Night,Underground Section A,Production,Hand Injury,High,Yes,Yes,No gloves worn,PPE enforcement,Open
+I036,2026-09-07,19:40,Night,Underground Section A,Production,Vehicle Incident,Medium,Yes,No,Poor visibility,Repair lighting,Open
+I037,2026-09-09,07:30,Day,Core Yard,Geology,Near Miss,Medium,No,No,Reversing without spotter,Review reversing controls,Closed
+I038,2026-09-22,17:50,Day,North Pit,Production,Fall of Ground,Critical,Yes,Yes,Inadequate barring down,Retrain on barring down,Closed
+I039,2026-09-23,21:15,Night,Workshop,Maintenance,Slip/Trip,Medium,Yes,No,Uneven ground,Grade walkways,Under Review
+I040,2026-09-26,04:30,Night,North Pit,Production,Near Miss,Medium,No,No,Dropped object,Secure tools at height,Open
+I041,2026-09-30,22:10,Night,Conveyor Line,Plant,Vehicle Incident,Low,Yes,No,Speeding,Install speed monitoring,Under Review
+I042,2026-10-03,13:30,Day,Processing Plant,Plant,Hand Injury,High,Yes,Yes,No gloves worn,PPE enforcement,Under Review
+I043,2026-10-13,05:50,Night,South Pit,Production,Fall of Ground,Critical,No,No,Loose ground,Barricade and inspect,Open
+I044,2026-10-13,11:45,Day,Processing Plant,Plant,Near Miss,High,No,No,Dropped object,Secure tools at height,Open
+I045,2026-10-21,13:45,Day,Processing Plant,Plant,Near Miss,Low,No,No,Reversing without spotter,Review reversing controls,Closed

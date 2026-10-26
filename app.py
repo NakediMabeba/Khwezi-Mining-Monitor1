@@ -10,11 +10,11 @@ st.set_page_config(page_title="Khwezi Mining Monitor", page_icon=":material/engi
 # Demo users and role permissions (Table 1 of the brief)
 # -----------------------------
 USERS = {
-    "admin": {"password": "admin123", "role": "Administrator", "name": "Mpho Voko"},
-    "safety": {"password": "safety123", "role": "Safety Officer", "name": "Dineo Malgas"},
-    "mining": {"password": "mining123", "role": "Mining Engineer", "name": "Nhlamulo Makhubele"},
-    "maintenance": {"password": "maint123", "role": "Maintenance Engineer", "name": "Nakedi Mabeba"},
-    "manager": {"password": "manager123", "role": "Manager", "name": "Koketso Phiri"},
+    "admin": {"password": "2975050", "role": "Administrator", "name": "Mpho Voko"},
+    "safety": {"password": "2988016", "role": "Safety Officer", "name": "Dineo Malgas"},
+    "mining": {"password": "2998838", "role": "Mining Engineer", "name": "Nhlamulo Makhubele"},
+    "maintenance": {"password": "2663848", "role": "Maintenance Engineer", "name": "Nakedi Mabeba"},
+    "manager": {"password": "2698697", "role": "Manager", "name": "Koketso Phiri"},
 }
 
 PERMISSIONS = {

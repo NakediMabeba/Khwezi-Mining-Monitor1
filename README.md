@@ -31,11 +31,11 @@ Open the Local URL shown in the terminal, normally `http://localhost:8501`.
 
 | Username | Password | Name | Role |
 |---|---|---|---|
-| admin | admin123 | Mpho Voko | Administrator |
-| safety | safety123 | Dineo Malgas | Safety Officer |
-| mining | mining123 | Nhlamulo Makhubele | Mining Engineer |
-| maintenance | maint123 | Nakedi Mabeba | Maintenance Engineer |
-| manager | manager123 | Koketso Phiri | Manager |
+| admin | 2975050 | Mpho Voko | Administrator |
+| safety | 2988016 | Dineo Malgas | Safety Officer |
+| mining | 2998838 | Nhlamulo Makhubele | Mining Engineer |
+| maintenance | 2663848 | Nakedi Mabeba | Maintenance Engineer |
+| manager | 2698697 | Koketso Phiri | Manager |
 
 The colour theme is in `.streamlit/config.toml`; the rest of the styling is the `CSS` block near the top of `app.py`.
 
